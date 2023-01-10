@@ -1,0 +1,23 @@
+# codigo para ser usado com a extensão Rest Cli do vc code
+
+
+GET http://localhost:3000/users
+
+####
+
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+    "name": "manoel",
+    "password": "cachaceiro"
+}
+
+#####
+POST http://localhost:3000/users/login
+Content-Type: application/json
+
+{
+    "name": "manoel",
+    "password": "cachaceiro"
+}
